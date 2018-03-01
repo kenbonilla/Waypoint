@@ -1,0 +1,32 @@
+[
+    {
+        "method": "saveToJsonFile",
+        "params":[ ],
+        "returns": true
+    },
+    {
+        "method": "resetFromJsonFile",
+        "params":[ ],
+        "returns": true
+    },
+    {   // add(jsonOfWaypoint) --> bool
+        "method": "add",
+        "params":[{ }],
+        "returns": true
+    },
+    {   // remove(string) --> bool
+        "method": "remove",
+        "params":["City"],
+        "returns": true
+    },
+    {   // get(string) --> jsonOfWaypoints
+        "method": "get",
+        "params":["City"],
+        "returns":{ }
+    },
+    {   // getNames() --> json array of strings of waypoint names
+        "method": "getNames",
+        "params":[],
+        "returns": [ ]
+    }
+]
