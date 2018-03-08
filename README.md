@@ -9,7 +9,6 @@ Waypoint clients in cpp and java, with waypoint server in cpp.
 
 
 Build the servers with build.cpp.client or build.java.client
-Will build with default values of localhost:8080
 
 
 for custom host and port:
